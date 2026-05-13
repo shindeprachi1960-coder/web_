@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Arial, sans-serif;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background: #0f172a;
+  color: white;
+}
+
+.logo{
+  font-size: 28px;
+}
+
+.nav-links{
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+
+.nav-links li{
+  cursor: pointer;
+}
+
+.hero-section{
+  height: 90vh;
+  background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay{
+  background: rgba(0,0,0,0.5);
+  padding: 40px;
+  border-radius: 12px;
+  color: white;
+  text-align: center;
+}
+
+.overlay h1{
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.overlay p{
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.buttons button{
+  padding: 12px 25px;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;
+  background: green;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.features{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 20px;
+  padding: 60px;
+}
+
+.card{
+  background: #f1f5f9;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+}

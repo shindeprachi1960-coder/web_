@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  overflow-x: hidden;
+  font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
+  color: #333;
+}
+
+#root {
+  width: 100%;          /* ← 1126px काढलं */
+  max-width: 100%;
+  margin: 0;
+  text-align: left;     /* ← center काढलं */
+  border: none;         /* ← border काढलं */
+  min-height: 100vh;
+  display: block;       /* ← flex काढलं */
+}
+
+h1, h2 {
+  font-weight: 600;
+  color: #08060d;
+}
+
+p {
+  margin: 0;
+}
